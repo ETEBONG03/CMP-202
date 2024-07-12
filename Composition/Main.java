@@ -1,19 +1,13 @@
-package Interface;
+package SAQ;
 
-public class Main{
+public class Main {
+    public static void main(String[] args) {
 
-    void addNumber(int a, int b){
-        System.out.println(a+b);
+        System.out.printf("Hello and welcome!");
+
+        for (int i = 1; i <= 5; i++) {
+
+            System.out.println("i = " + i);
+        }
     }
-     public static void main(String[] args) {
-
-        Main main = new Main();
-        main.addNumber(5, 8);
-         Computer computer = new Computer(new RAM(), new Processor(), new Storage());
-         System.out.println(computer);
-
-
-     }
-
-
- }
+}
